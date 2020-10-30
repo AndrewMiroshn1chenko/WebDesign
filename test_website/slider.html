@@ -2,13 +2,13 @@
 <html>
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   <title>3 Column Layout</title>
+   <title>Slider</title>   
    <link rel="stylesheet" href="assets/css/style.css">
-   <link rel="contact" href="contact.html">
-   <link rel="about" href="about.html">
-   <link rel="slider" type="slider.html" href="">
+   <link rel="stylesheet" href="assets/css/slide.css">
+
 </head>
 <body>
+
 <header class="header">
             <img src="assets/img/logo1.png">
 </header>
@@ -18,6 +18,12 @@
            <h1>Heading</h1>
            <p></p>
        </article>
+                <button class="slider" , class="slideInRight" onclick="prevSlide()">Prev</button>
+                <button class="slider" , class="slideInLeft" onclick="nextSlide()">Next</button>    
+       <div id="mySlider">
+
+       </div>
+
    </main>
    <nav class="left column">
        <h3>Left heading</h3>
@@ -53,10 +59,9 @@
 
       </div>
     </footer>
-    
-</div>
-         <script src="assets/js/script.js"></script>
 
+</div>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
 
