@@ -1,0 +1,14 @@
+.shapeWidth{
+	position: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 120px;
+	color: #E1342E;
+	outline-color: #9C77E1;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5, #5BC9E1));
+}
+
+.canvasForm{
+	border-width: 20px;
+	border-color: #E1342E;
+}
